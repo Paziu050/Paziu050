@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .column1 {
+            float:left;
+            width: 25%;
+           
+           
+          
+            
+        }
+        .column2 {
+            float:left;
+            width: 50%;
+           
+
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .leb {
+            width: 100%;
+            margin: 0%;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        .stipa {
+            width: 100%;
+            text-align: center;
+
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .column1  {
+                width: 100%;
+            }
+            @media screen and (max-width: 600px) {
+            .column2  {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="leb" style="background-color:blueviolet" >
+        <h1>Siemano </h1>
+    </header>
+    
+        <div class="column1" style="background-color:rgb(22, 156, 17);">
+           
+            <h1>Siemano </h1>
+            <article> </article>
+        
+        
+        </div>
+        <div class="column2" style="background-color:rgb(28, 127, 173);">
+            
+            
+            <h1>Siemano </h1>
+            <article> </article>
+            
+        </div>
+        <div class="column1" style="background-color:rgb(122, 29, 29);">
+            
+            
+            <h1>Siemano </h1>
+            <article> </article>
+            
+        </div>
+        <footer class="stipa" style="background-color: red">
+        <h1>Siemano</h1>
+             
+        </footer>
+</body>
+
+</html>
