@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="essa.html">
+        <fieldset>
+            <legend>Etykieta i jednowierszowe pole tekstowe</legend>
+            <label for="fname">Imię:</label><br/>
+            <input id="fname" name="fname" type="text"><br/>
+            <label for="lname">Nazwisko:</label><br/>
+            <input id="lname" name="lname" required type="text"><br/>
+            <label for="pass">Hasło: </label><br/>
+            <input id="pass" name="pass" required type="password"><br/><br/>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+
+        <form action="essa.html">
+            <fieldset>
+            <legend>wiekszy formularz</legend>
+            <label for="message">Inwokejszyn:</label> <br/>
+            <textarea id="message" name="message" rows="5" cols="50">
+                sddddddddddddddd
+                
+                </textarea> <br/>
+                <input type="submit" value="Wyślij">
+                
+            </fieldset>
+
+                </form>
+             
+    <form action="essa.html">
+        <fieldset>
+            <legend>Radio button</legend>
+            <br/>
+            <input type="radio" id="html"
+            name="fav_language" value="HTML">
+            <label for="html">HTML</label>
+            <br/>
+            <input type="radio" id="css"
+            name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <br/>
+            <input type="radio" id="javascript"
+            name="fav_language" value="Java Script">
+            <label for="javascript">Java Script</label>
+
+            <br/>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+    </form>
+
+    <form action="essa.html">
+        <fieldset>
+            <legend>Checkbox</legend>
+            <br/>
+            <input type="checkbox" id="vehicle1"
+            name="vehicle1" value="hulajnoga">
+            <label for="html">HTML</label>
+            <br/>
+            <input type="checkbox" id="vehicle2"
+            name="fav_language" value="CSS">
+            <label for="css">CSS</label>
+            <br/>
+            <input type="checkbox" id="vehicle3"
+            name="fav_language" value="Java Script">
+            <label for="javascript">Java Script</label>
+
+            <br/>
+            <input type="submit" value="Wyślij">
+        </fieldset>
+        <form action="essa.html">
+            <fieldset>
+                <legend>Lista wielokrotnego wyboru</legend>
+                <br/>
+                <select id="cars1" name="cars1" size="10" multiple>
+           
+
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                
+                    <option value="Alfa_Romeo">Alfa Romeo</option>
+                    <option value="bmw" disabled>BMW</option>
+           
+           
+                    <option value="fiat" selected>fiat</option>
+                    <option value="audi">audi</option>
+                    <option value="mercedes">Mercedes</option>
+              
+                </select><br/>
+                <input type="submit" value="Wyślij">
+            </fieldset>
+        </form>
+
+
+
+    </form>
+            
+        
+        
+   
+    
+</body>
+</html>
