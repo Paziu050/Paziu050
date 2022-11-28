@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Obrazek otoczony tekstem z prawej strony:</h1>
+    <div style="text-align:justify;">
+        <img src="assets/tony.jpg" alt="Say hello to my little friend" width="250" height="200"
+            style="float:right; margin:15px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed a dignissimos, deleniti molestias beatae veniam
+        ducimus. At rerum ab aliquam, quod, maxime molestias incidunt, voluptatum laboriosam odio architecto ex
+        dignissimos nulla dolorum dolorem inventore corrupti itaque corporis fuga sunt quisquam. Enim ratione natus
+        fugit pariatur perspiciatis mollitia molestias quasi, quisquam consequatur commodi cumque hic magnam ducimus
+        adipisci tempora suscipit ipsam voluptate deleniti nam culpa! Minima eaque obcaecati recusandae asperiores,
+        libero ullam rerum cum porro quibusdam quas. Culpa maxime, nostrum enim in tenetur aut totam alias laudantium
+        iure, quidem quae cupiditate assumenda dolore optio vel qui neque voluptatum ad numquam doloremque sed
+        accusantium temporibus corporis! Ratione exercitationem quisquam dolores, laudantium praesentium voluptates,
+        natus itaque debitis, illo aperiam impedit! Sequi eveniet odit labore corrupti vero nesciunt dignissimos
+        quibusdam ab nisi voluptatum consequatur ipsa commodi mollitia quisquam, deserunt, consectetur doloremque, natus
+        rerum atque vitae. Tempora tempore fugiat non, quas obcaecati repudiandae explicabo quod ut debitis, accusantium
+        pariatur quisquam? Adipisci eos odio animi! Perspiciatis vel quisquam fugiat mollitia enim, voluptatum
+        blanditiis quidem dolorum magni illum soluta corrupti dolores quibusdam, obcaecati atque aspernatur officia
+        architecto aliquam, alias accusantium consectetur aut! Suscipit nulla ab sit aut eaque atque corporis placeat
+        assumenda deserunt ea minus rem ullam ex temporibus, reiciendis eius tenetur possimus culpa? Nihil deleniti ad
+        corporis, repellendus accusantium quis dicta dolores sed totam unde adipisci aspernatur quos modi asperiores
+        officiis. Quidem aspernatur atque asperiores aliquam iure quis voluptatum non deserunt, eligendi pariatur
+        cupiditate architecto, autem amet sapiente doloremque molestias dolorem neque doloribus labore voluptate
+        maiores! Optio qui doloribus soluta nulla sit quia quo totam ea veniam quae iure itaque, excepturi adipisci
+        necessitatibus nisi, ipsa voluptatem provident! Sed soluta exercitationem dolorum asperiores neque dolores
+        quibusdam voluptatibus inventore nobis. Illo ipsa accusamus ratione sed expedita reprehenderit, nesciunt
+        tempore, ab esse alias fugit autem cupiditate explicabo fugiat vero?
+    </div>
+    <br>
+    <h1> Obrazek otoczony tekstem z lewej strony:</h1>
+    <div style="text-align:justify;">
+        <img src="assets/boardmart.jpg" alt="Boardmart" width="220" height="140" style="float:left; margin:15px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed a dignissimos, deleniti molestias beatae veniam
+        ducimus. At rerum ab aliquam, quod, maxime molestias incidunt, voluptatum laboriosam odio architecto ex
+        dignissimos nulla dolorum dolorem inventore corrupti itaque corporis fuga sunt quisquam. Enim ratione natus
+        fugit pariatur perspiciatis mollitia molestias quasi, quisquam consequatur commodi cumque hic magnam ducimus
+        adipisci tempora suscipit ipsam voluptate deleniti nam culpa! Minima eaque obcaecati recusandae asperiores,
+        libero ullam rerum cum porro quibusdam quas. Culpa maxime, nostrum enim in tenetur aut totam alias laudantium
+        iure, quidem quae cupiditate assumenda dolore optio vel qui neque voluptatum ad numquam doloremque sed
+        accusantium temporibus corporis! Ratione exercitationem quisquam dolores, laudantium praesentium voluptates,
+        natus itaque debitis, illo aperiam impedit! Sequi eveniet odit labore corrupti vero nesciunt dignissimos
+        quibusdam ab nisi voluptatum consequatur ipsa commodi mollitia quisquam, deserunt, consectetur doloremque, natus
+        rerum atque vitae. Tempora tempore fugiat non, quas obcaecati repudiandae explicabo quod ut debitis, accusantium
+        pariatur quisquam? Adipisci eos odio animi! Perspiciatis vel quisquam fugiat mollitia enim, voluptatum
+        blanditiis quidem dolorum magni illum soluta corrupti dolores quibusdam, obcaecati atque aspernatur officia
+        architecto aliquam, alias accusantium consectetur aut! Suscipit nulla ab sit aut eaque atque corporis placeat
+        assumenda deserunt ea minus rem ullam ex temporibus, reiciendis eius tenetur possimus culpa? Nihil deleniti ad
+        corporis, repellendus accusantium quis dicta dolores sed totam unde adipisci aspernatur quos modi asperiores
+        officiis. Quidem aspernatur atque asperiores aliquam iure quis voluptatum non deserunt, eligendi pariatur
+        cupiditate architecto, autem amet sapiente doloremque molestias dolorem neque doloribus labore voluptate
+        maiores! Optio qui doloribus soluta nulla sit quia quo totam ea veniam quae iure itaque, excepturi adipisci
+        necessitatibus nisi, ipsa voluptatem provident! Sed soluta exercitationem dolorum asperiores neque dolores
+        quibusdam voluptatibus inventore nobis. Illo ipsa accusamus ratione sed expedita reprehenderit, nesciunt
+        tempore, ab esse alias fugit autem cupiditate explicabo fugiat vero?
+    </div>
+    <h1>Mapa odsyłaczy na obrazku:</h1>
+    <div>
+        <img src="assets/ksztalty.jpg" alt="Kształty" usemap="#mapa">
+
+        <map id="mapa" name="mapa">
+            <area shape="rect" coords="140,304,342,506" href="https://wp.pl" alt="kwadrat">
+            <area shape="circle" coords="153,130,100" href="https://wp.pl" alt="kolko">
+            <area shape="circle" coords="570,185,155" href="https://wp.pl" alt="bigger kolko">
+        </map>
+    </div>
+        <h1>Obrazek jak tło innego elementu</h1>
+        <div style="background-image: url('assets/peis.jpg'); background-repeat: no-repeat;background-attachment: local; background-size: auto;">
+           
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate iusto beatae quo quidem placeat nam
+            inventore reprehenderit impedit dignissimos ad dicta accusamus expedita necessitatibus nobis perspiciatis
+            nesciunt id, error repellat dolor fugiat maxime excepturi quos blanditiis! Placeat maxime corrupti, labore
+            iusto non doloremque blanditiis natus maiores eveniet mollitia saepe nobis magnam ut odio delectus
+            repellendus voluptatem aut similique magni. Autem magnam quia vero, ea fuga sit aliquid doloremque eligendi
+            officiis eum quis, tempora tenetur aspernatur voluptatibus laborum. Iste cum iusto nihil a voluptatem minus
+            assumenda. Architecto consequatur omnis voluptatem saepe quos dolorum maiores. Delectus in possimus dicta
+            sint excepturi quasi corrupti voluptatibus, libero porro veritatis illo? Tenetur consequuntur optio harum
+            reiciendis nobis dolore itaque sequi? Suscipit magni commodi eligendi voluptas cum ex aut saepe molestias
+            eaque repellendus ab veritatis tenetur praesentium accusantium, blanditiis quod! Excepturi iure quaerat
+            provident velit animi, consequatur rerum adipisci? A molestiae soluta sapiente ducimus eaque voluptatem
+            animi, sunt in amet dolore commodi. Ipsum dolorum culpa enim quam perspiciatis consectetur minima hic animi
+            voluptates. At autem esse architecto, eos deleniti veritatis inventore error, blanditiis reiciendis fuga hic
+            quibusdam labore adipisci pariatur nisi, libero consequatur sed explicabo recusandae corporis cumque sint
+            vitae ullam. Delectus perferendis temporibus repudiandae. Blanditiis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam debitis quos, maxime sed necessitatibus earum, sint ullam id assumenda quidem porro numquam, omnis incidunt quo eos? Quibusdam mollitia incidunt ipsum deleniti aliquid minus nihil animi doloremque voluptatum quae perspiciatis ducimus ipsa obcaecati reprehenderit facere unde aspernatur voluptates dolorem atque, natus adipisci tempora optio odio porro. Odit iure illo cumque quisquam soluta natus dolor repellendus. Debitis aliquam quasi, cumque unde laudantium quis maiores sint blanditiis dicta quas aut temporibus neque accusantium dolorum enim mollitia! Temporibus voluptates ipsam quam esse sed libero nihil dicta qui ipsum, voluptas voluptate deserunt accusantium expedita saepe enim vitae modi commodi recusandae, magnam repellat possimus. Ex, iure, maxime culpa dolore tempora, perferendis mollitia dolor vero quas saepe dignissimos provident nihil reiciendis quos possimus. Quam quidem nesciunt maiores blanditiis labore facilis sed quia eligendi ratione iusto impedit nisi dolorum esse incidunt ad natus fugit dolor magni veniam similique, ipsam possimus! Laudantium culpa praesentium aliquam veritatis expedita vitae corrupti rem autem maxime cum quis itaque ad possimus iure, nobis, minus nesciunt quae necessitatibus atque ab velit sapiente! Quasi accusamus debitis excepturi! Eius illo repellendus perspiciatis, excepturi dignissimos quasi nihil. Autem nam numquam nemo rem? Commodi, eaque quisquam fuga repellat ab alias, laboriosam consequatur, quidem temporibus iure rem veritatis a voluptatum totam. Ratione obcaecati quod consequatur ipsum. Fuga dicta esse illo, temporibus culpa tempora ratione minima dolores voluptate velit similique in vero corrupti odit ullam. A deleniti quis, molestiae iusto nihil esse reiciendis odio consequatur cumque? Excepturi reprehenderit neque autem labore, eveniet distinctio natus, fugiat repudiandae enim, expedita porro quos consectetur minima libero possimus. Iusto repudiandae animi corporis autem illo similique impedit dolore earum, sapiente deleniti ut molestiae tenetur tempora laboriosam cum adipisci aliquam ullam? Quo debitis possimus, libero totam nemo cupiditate nisi voluptatibus temporibus quia similique nesciunt eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius sunt magnam minima ducimus accusantium deserunt dolores et? Cumque quibusdam voluptates corporis facere id quod, enim praesentium assumenda non pariatur doloremque a nihil aliquid tempora quam laudantium atque tenetur. Cumque, iusto enim! Cum voluptas quod, aliquid totam corporis id, rerum soluta temporibus atque fugit enim voluptatum repellat perspiciatis quis assumenda hic ab quidem amet iste in consectetur! Libero rem, itaque earum nemo error totam nesciunt asperiores accusamus quisquam suscipit neque corporis reprehenderit fugit quas, sit quidem est officia! Alias rem amet nobis sit, temporibus assumenda enim quasi in vel ducimus, veniam excepturi iusto minima voluptates quas unde eos corrupti earum. Officiis veniam libero sit nam reiciendis at cumque repellat provident quod earum quibusdam animi, culpa a eveniet optio quaerat. Reprehenderit, delectus et! Doloribus eos corrupti praesentium nulla! Quas modi iusto magni labore provident, ducimus consectetur accusantium necessitatibus. Quis quasi deleniti omnis distinctio, autem tempora nisi debitis expedita reiciendis officia quia suscipit eius soluta earum rerum iure laboriosam voluptatum obcaecati? Ullam vitae odio ab nobis rem, earum cumque soluta, natus iste neque veniam sed error aperiam! Quidem explicabo laboriosam illum veniam esse officia similique, eaque, omnis dolorem amet optio delectus, atque odit error nisi inventore suscipit libero labore cum. Blanditiis natus numquam ipsa fuga voluptatibus aspernatur nesciunt praesentium illum, animi suscipit ratione dolore veritatis similique, recusandae quae doloribus labore, necessitatibus saepe nam. Laboriosam necessitatibus totam exercitationem. Repellat voluptas consectetur aut placeat facere asperiores in voluptatem, atque minus facilis aliquid cum animi corporis numquam amet eius ipsum maxime accusantium! Et aliquid enim consequatur tenetur distinctio sed cum voluptatum impedit, earum officia odit veritatis doloremque nisi, libero deleniti. Id iusto perferendis veniam, blanditiis similique odit recusandae. Ducimus aperiam odit, nostrum tenetur vel consectetur! Reiciendis nemo id aspernatur impedit inventore nihil fugiat fuga quam recusandae iure labore culpa esse, maiores sit ea laboriosam unde velit! Ad illum quasi adipisci ex culpa atque dolore quam laboriosam. Esse fugit maxime aspernatur incidunt rerum recusandae ut molestias debitis quis illo eum, iusto temporibus est repellat commodi obcaecati quisquam placeat vitae officia adipisci? Enim quae nobis unde delectus similique at optio dolorem amet, nihil, earum illum. Nam consequatur ut quae itaque! Asperiores animi suscipit laborum ea reiciendis, doloribus quae perferendis eaque sunt illo quasi consequuntur nulla, impedit explicabo placeat obcaecati provident minima sint adipisci totam itaque, sit corporis! Maiores repudiandae rerum magnam ducimus alias quis repellendus, dolores iusto officiis est laudantium vitae ipsam accusantium impedit? Molestiae ratione reprehenderit vitae perferendis omnis. Quae soluta dolorem deserunt at magni vitae nulla ullam facere veritatis aliquam. Natus, animi cum at corrupti dolorem doloremque id aspernatur deserunt voluptatem rerum, provident placeat minima inventore suscipit pariatur perspiciatis sed reiciendis sapiente sunt quis architecto. Alias in fuga nisi labore sit ad illo cum numquam repudiandae, praesentium maiores esse? Commodi dolorum eum cum eaque laborum est quas aliquid voluptatum veritatis, reprehenderit, sint enim neque praesentium consequatur dolor suscipit illum veniam sunt vero. Asperiores officia vel labore facere amet, pariatur, obcaecati rem quos, soluta id nisi!</div>
+    <h1>Użycie elementu picture:</h1>
+        <picture>
+            <source media="(min-width:800px)" srcset="assets/zlomek1.jpg">
+            <source media="(min-width:600px)" srcset="assets/zlomek2.jpg">
+            <img alt="zlomek" src="assets/zlomek3.jpg">
+           
+        </picture>
+</body>
+
+</html>
