@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02.12</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .column{
+        float:left;
+        width: 75%;
+
+    }
+    .column1{
+        float:right;
+        width: 25%;
+    }
+    .row::after{
+        content: "";
+        display:table;
+        clear:both;
+    }
+    @media screen and (max-width: 800px) {
+        .column{
+            width: 100%}
+        .column1{
+            width: 100%}
+    }
+    
+</style>
+<body style="font-family: Arial; padding:20px; background-color:antiquewhite ">
+    
+    
+    <header style="text-align:center; font-size:40px; padding:40px; background-color:aquamarine">Nazwa Strony</header>
+    <div class="row">
+    <section class="column" style="padding-left:20px; background-color:blueviolet">
+    <article style="background-color:aquamarine">
+        <h5>Tytuł artykułu</h5>
+        <h6>Dodany 17-12-2021</h6>
+        <figure>
+            <img src="tony.jpg" alt="siemanko">
+        </figure>
+        siema siema
+    </article>
+    <article style="background-color:blueviolet">
+    <h5>O nas</h5>
+    <h6>siemaneczko</h6>
+    <figure>
+    <img src="tony.jpg" alt="siemanko">
+</figure>
+    </article>
+    siemanko</section>
+</div>
+<section class="column1" style="padding-left:20px; background-color:blue"> 
+    <div><h5>Siemanko</h5> <figure><img src="images.jfif" alt="tony"></figure></div>
+    <div><h5>Siemanko</h5><figure><img src="images.jfif" alt="tony"></figure></div>
+    <div><h5>Siemanko</h5><figure><img src="images.jfif" alt="tony"></figure></div>
+    siemanko
+</section>
+    <footer style="text-align:center; margin-top:20px; padding:20px;background-color:azure">Stopka</footer>
+</body>
+</html>
