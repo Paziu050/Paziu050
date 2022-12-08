@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patera</title>
+    <style>
+        .col1 {
+            float: left;
+            width: 20%;
+
+
+        }
+
+        .col2 {
+            float: left;
+            width: 60%;
+
+        }
+
+        .col3 {
+            float: right;
+            width: 20%;
+
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width: 600px) {
+            .col1 {
+                width: 100%;
+            }
+
+            .col2 {
+                width: 100%;
+            }
+
+            .col3 {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header style="width:100%; background-color:yellow">
+        <h6>Naglowek</h6>
+        <picture>
+            <source media="(min-width:800px)" srcset="980x240.jpg" alt="980x240">
+            <source media="(min-width:600px)" srcset="700x200.jpg" alt="700x200">
+            <source media="(min-width:450px)" srcset="500x180.jpg" alt="500x180">
+            <img src="400x150.jpg" alt="400x150">
+        </picture>
+    </header>
+    <div class="row" style="width:100%">
+        <div class="col1" style="background-color:red">
+            <h6>Pierwsza kolumna</h6>
+            <form style="background-color:blue">
+                <fieldset>
+                    <legend>Formularz logowania</legend>
+                    <label>Login <input type="text" name="Login"></label>
+                    <br>
+                    <label>Hasło<input type="password" name="haslo"></label>
+                    <br>
+                    <p>
+                        <input type="radio" name="n1" value="Tak"> Tak
+                    </p>
+
+                    <p>
+                        <input type="radio" name="n1" value="Nie"> Nie
+                    </p>
+
+                    <input type="submit" value="Zaloguj" style="width:100%;background-color:greenyellow">
+
+                </fieldset>
+            </form>
+        </div>
+        <div class="col2" style="background-color: blue;">
+            <h6>Druga kolumna</h6>
+            <h3>Tabela roczna</h3>
+            <table border="1" bordercolor="brown">
+                <tr>
+                    <td>Styczeń</td>
+                    <td>Luty</td>
+                    <td>Marzec</td>
+                    <td>Kwiecień</td>
+                    <td>Maj</td>
+                    <td>Czerwiec</td>
+                    <td>Lipiec</td>
+                    <td>Sierpień</td>
+                    <td>Wrzesień</td>
+                    <td>Październik</td>
+                    <td>Listopad</td>
+                    <td>Grudzień</td>
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <td>II</td>
+                    <td>III</td>
+                    <td>IV</td>
+                    <td>V</td>
+                    <td>VI</td>
+                    <td>VII</td>
+                    <td>VIII</td>
+                    <td>IX</td>
+                    <td>X</td>
+                    <td>XI</td>
+                    <td>XII</td>
+                </tr>
+                <tr background="jez.jpg">
+                    <td colspan="12"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col3" style="background-color:azure ;">
+            <h6>Trzecia kolumna</h6>
+            <form>
+                <fieldset>
+                    <legend>Wyszukiwarka</legend>
+                    <input type="text" style="border-width:1px; border-color:red"> <input type="submit" value="Szukaj"
+                        style="background-color:cyan border-width:1px; border-color:red">
+                    <ol type="i" style="border-style:dotted; border-width:1px; border-color:darkgrey">
+                        <li>Pierwsza</li>
+                        <li>druga</li>
+                        <li>trzecia</li>
+                        <li>czwarta</li>
+                        <li>piąta</li>
+                    </ol>
+
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer style="width:100%; background-color:aquamarine">
+        <h6>Stopka</h6>
+    </footer>
+</body>
+
+</html>
