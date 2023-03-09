@@ -1,0 +1,38 @@
+1. Utwórz element div, a w nim textarea z atrybutem onfocus. Kiedy pole tekstowe otrzyma fokus, to zmieniaj mu tło na żółty kolor
+2. Do elementu p wstaw puste pole tekstowe input. Po wpisaniu do niego tekstu i utracie fokusu, zmieniaj wpisane litery na wielką czcionkę. Użyj atrybutu onblur (HTML) i metody toUpperCase (JS)
+3. Do elementu p wstaw rozwijana liste jednokrotnego wyboru z wartosciami black, brown, blue, blueviolet, burlywood, bisque. Za pomoca atrybutu on change, uchwyc zmiane wartosci na liscie wyboru i zmien kolor tekstu na liscie na ten wybrany.
+4. Utworz element p z dowolnym tekstem i dodaj do niego dwa atrybuty: onclick i ondblclick. Po pojedynczym kliknieciu na tekst w akapicie, zmieniaj jego czcionke na xx-large, natomiast po dwukrotnym kliknieciu zmieniaj czcionke na medium.
+5. Utworz element div a w nim dodaj dowolny obraz o wymiarach nie wiekszych niz 500x500px. Dodaj do obrazka atrybut oncontextmenu i kiedy pojawi sie menu kontekstowe, to w oknie typu alert wyswietl wartość src z obrazka
+6. Utworz element div a w nim dwa elementy: input typu tekstowego i p. Do pola tekstowego dodaj atrybut onkeyup a w nim obsluge zdarzenia polegajacego na tym, ze tekst wprowadzony do pola input bedzie kopiowany do akapitu pod nim
+7. Dodaj element h1 z dowolnym tekstem w kolorze zielonym oraz dwoma atrybutami: onmouseout i onmouseover. Po najechaniu kursorem na tekst dodaj mu cien przesuniety na osiach X i Y o 2 piksele z rozmyciem o dlugosci 5px, w kolorze zielonym. Usun cien po przesunieciu kursora poza tekst.
+
+
+Utworz dwa pliki: HTML i JavaScript. Dołącz do HTML plik JS. Wpisz do pliku HTML fragment kodu HTML z polecenia i dodaj przycisk (button). W pliku JS nasluchuj zdarzenia tyou click pochodzacego z danego przycisku i po jego wystapieniu wykonaj kod realizujacy odpowiednie polecenie, np. zmian zawartosci elementu.
+1. Utworz element h6 z dowolnym tekstem. Po nacisnieciu przycisku, odszukaj h6 i zmien za pomoca metody innerHTML tekst wewnatrz na: <i>Świetnie!<i>
+2. Utworz element h5 z dowolnym tekstem. Po nacisnieciu przycisku, odszukaj h5 i zmien za pomoca metody innerText tekst wewnatrz na: <i>Świetnie!<i>
+3. W elemencie div umiesc elementy p, a w nich po jednym elemencie del, code, strong i em, wszystkie z dowolnym tekstem wewnatrz. Po kliknieciu przycisku, 
+wyszukaj wszystkie elementy wewnatrz div, wyswietl je w konsoli i wybierz jeden z nich np. strong, za pomoca metody tagName. Nastepnie dodaj mu kropkowane 
+obramowanie o szerokosci 10px w kolorze zielonym
+4. Utworz element p z przykladowym tekstem wewnatrz. Dodaj do niego atrybut title rowniez z przykladowa wartoscia. Po kliknieciu przycisku, odszukaj element p, 
+potem za pomoca metody getAttribute pobierz wartosc atrybutu title i wyswietl go w oknie alert
+5. Utwórz element p z przykładowym tekstem. Po kliknięciu przycisku odszukaj akapit, a potem za pomocą metody setAttribute ustaw mu wartość atrybutu dir na rtl.
+6. Utwórz element input, ustaw mu atrybut disabled, dodaj przykładowy tekst i odpowiedni styl, aby tekst był duży i dobrze widoczny. Po kliknięciu przycisku, odszukaj 
+element input i za pomocą metody toggleAttribute zmień wartość atrybutu disabled. Odszukaj również naciśnięty przycisk i zapisz go pod stałą o dowolnej nazwie. Następnie
+w instrukcji if, za pomocą metody disabled, sprawdzaj wartość atrybutu disabled. Jeśli jest ustawiony, to na przycisku pokazuj napis Edycja jest teraz niemożliwa, w 
+przeciwnym razie, wyświetl na przycisku napis Można edytować.
+7. Skup się. Dodaj element p z atrybutem style z wartością font-family ustawioną na Arial Black. W elemencie p dodaj tekst Usuń atrybut href w tym elemencie. Po 
+kliknięciu przycisku, odszukaj oba elementy i usuń im atrybuty style i href metodą removeAttribute.
+8. Utwórz element h3 z tekstem Atrybuty użytkownika i dodaj do niego kilka dodatkowych atrybutów date-*, np. data-id, data-type, data-value, data-born-date, 
+data-relationship-status. Poniżej dodaj element div, bez tekstu, ale z obramowaniem: 1px, ciągłe, czerwone. po naciśnięciu przycisku odszukaj element h3 i wyświetl
+w konsoli dwie jego własności: dataset i attributes. Następnie użyj pętli for dla atrybutów i twórz nowe elementy p. umieszczaj je w div, wpisuj do nich nazwę kolejnych 
+atrybutów z h3 oraz ich wartości. Przykład:
+9. Utwórz pusty element textarea. Po naciśnięciu przycisku losuj 6 liczb szesnastkowych z przedzialu od 0 do F i twórz z nich kod koloru, np.#CCEE4C. Zapisuj ten kod 
+w konsoli oraz przypisuj jako tło elementu textarea.
+
+Zadanie 4.#
+Przygotuj nową stronę HTML z dowolnym formatowaniem dotyczącym koloru tła, koloru czcionki i kroju czcionki. Dodaj na tej stronie 5 nagłówków stopnia pierwszego z 
+tekstem i linkiem składającym się z jednego znaku. Tym znakiem może być mały obrazek ze strzałką lub encje HTML, np. &#8615; . Pod nagłówkami dodaj 5 krótkich, kilku 
+wierszowych tekstów w znaczniku pre, czyli zachowujących przełamanie linii. Dodaj nowy plik z kodem JavaScript, który będzie realizował następującą funkcjonalność. Po 
+kliknięciu na pojedyńczy znak (lub mały obrazek) w tytule, ma się zwijać lub rozwijać teksty pod tym tytułem. Skoro mamy 5 nagłówków i pod każdym z nich 5 tekstów, to 
+każdy link w tytule ma działać dla swojego tekstu. Dodatkowo znak/obrazek po kliknięciu ma się zmieniać: przed kliknięciem powinna to być strzałka skierowana w dół, po 
+kliknięciu-strzałka skierowana do góry.
